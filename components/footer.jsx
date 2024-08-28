@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="flex flex-col gap-8 flex-1">
           <div>
             <p className="text-[#ffff] font-bold text-2xl">التواصل</p>
-            <h1  className="text-[#C39B69] font-8xl font-bold " dir="ltr">+971 <span> </span> 506 <span> </span> 405 <span> </span> 073</h1>
+            <h1  className="text-[#C39B69] font-8xl font-bold " dir="ltr">+971 <span> </span> 000 <span> </span> 000 <span> </span> 000</h1>
           </div>
           <div>
             <p className="text-[#ffff] font-bold text-2xl">العنوان</p>
