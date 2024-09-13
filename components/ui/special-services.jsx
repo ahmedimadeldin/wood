@@ -6,7 +6,7 @@ const SpecialServicesCard = ({ title, desc }) => {
 
     return (
         <motion.div
-            className="w-full md:w-[calc(50% - 1rem)] bg-white rounded-xl shadow-lg p-6 overflow-hidden"
+            className="w-full bg-white rounded-xl shadow-lg p-4 sm:p-5 md:p-6 overflow-hidden"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
@@ -15,7 +15,7 @@ const SpecialServicesCard = ({ title, desc }) => {
             onHoverEnd={() => setIsHovered(false)}
         >
             <motion.h2
-                className="text-2xl font-bold mb-4 text-[#613A0F]"
+                className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3 md:mb-4 text-[#613A0F]"
                 initial={{ y: 0 }}
                 animate={{ y: isHovered ? -5 : 0 }}
                 transition={{ duration: 0.3 }}
@@ -23,7 +23,7 @@ const SpecialServicesCard = ({ title, desc }) => {
                 {title}
             </motion.h2>
             <motion.p
-                className="text-gray-600"
+                className="text-sm sm:text-base md:text-lg text-gray-600"
                 initial={{ opacity: 0.8, y: 0 }}
                 animate={{ opacity: isHovered ? 1 : 0.8, y: isHovered ? 5 : 0 }}
                 transition={{ duration: 0.3 }}
